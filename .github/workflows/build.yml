@@ -28,6 +28,7 @@ jobs:
       - name: Build APK
         run: |
           cd HttpLogger
+          sed -i '/org.gradle.java.home/d' gradle.properties
           gradle wrapper --gradle-version 7.5
           chmod +x gradlew
           ./gradlew assembleDebug
