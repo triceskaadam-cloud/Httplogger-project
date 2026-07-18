@@ -35,7 +35,7 @@ jobs:
           distributionPath=wrapper/dists
           zipStoreBase=GRADLE_USER_HOME
           zipStorePath=wrapper/dists
-          distributionUrl=https\://services.gradle.org/distributions/gradle-8.1.1-bin.zip
+          distributionUrl=https\://services.gradle.org/distributions/gradle-8.6-bin.zip
           EOF
           gradle wrapper --gradle-version 7.5
           chmod +x gradlew
