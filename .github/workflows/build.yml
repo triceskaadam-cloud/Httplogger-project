@@ -20,7 +20,7 @@ jobs:
       - name: Download XposedBridgeApi
         run: |
           mkdir -p HttpLogger/app/libs
-          wget -q https://github.com/MALTF/XposedBridgeAPI/raw/main/XposedBridgeApi-82.jar -O HttpLogger/app/libs/XposedBridgeApi-82.jar
+         
 
       - name: Build Debug APK
         run: |
